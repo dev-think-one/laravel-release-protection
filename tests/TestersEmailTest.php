@@ -20,7 +20,7 @@ class TestersEmailTest extends TestCase
 
     protected function prepareUserToReturn($email = null)
     {
-        $user = new \stdClass();
+        $user        = new \stdClass();
         $user->email = $email;
         Auth::shouldReceive('guard')->once()->andReturnSelf();
         Auth::shouldReceive('user')->once()->andReturn($user);

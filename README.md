@@ -1,5 +1,12 @@
 # Laravel: release protection
 
+![Packagist License](https://img.shields.io/packagist/l/think.studio/laravel-release-protection?color=%234dc71f)
+[![Packagist Version](https://img.shields.io/packagist/v/think.studio/laravel-release-protection)](https://packagist.org/packages/think.studio/laravel-release-protection)
+[![Total Downloads](https://img.shields.io/packagist/dt/think.studio/laravel-release-protection)](https://packagist.org/packages/think.studio/laravel-release-protection)
+[![Build Status](https://scrutinizer-ci.com/g/dev-think-one/laravel-release-protection/badges/build.png?b=main)](https://scrutinizer-ci.com/g/dev-think-one/laravel-release-protection/build-status/main)
+[![Code Coverage](https://scrutinizer-ci.com/g/dev-think-one/laravel-release-protection/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/dev-think-one/laravel-release-protection/?branch=main)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dev-think-one/laravel-release-protection/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/dev-think-one/laravel-release-protection/?branch=main)
+
 Protect your routes for not allowed users.
 
 ## Installation
@@ -7,7 +14,7 @@ Protect your routes for not allowed users.
 Install the package via composer:
 
 ```bash
-composer require yaroslawww/laravel-release-protection
+composer require think.studio/laravel-release-protection
 ```
 
 You can publish the config file with:

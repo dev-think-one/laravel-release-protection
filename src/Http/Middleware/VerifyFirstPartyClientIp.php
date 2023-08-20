@@ -24,7 +24,7 @@ class VerifyFirstPartyClientIp
             app()->environment(
                 config('release-protection.ip.envs.' . $type, config('release-protection.ip.envs.default'))
             ) &&
-            ! in_array($request->ip(), $allowIPs)
+            !in_array($request->ip(), $allowIPs)
         ) {
             abort(
                 config('release-protection.ip.status.restricted.' . $type, config('release-protection.ip.status.restricted.default')),
