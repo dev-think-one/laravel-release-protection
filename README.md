@@ -34,7 +34,7 @@ RPROTECT_FIRST_PARTY_IPS="123.4.5.6,123.4.5.7"
 
 Add new middlewares
 
-```injectablephp
+```php
 # app/Http/Kernel.php
 protected $routeMiddleware = [
     // ...
@@ -45,7 +45,7 @@ protected $routeMiddleware = [
 
 Add middleware to routes
 
-```injectablephp
+```php
 Route::middleware([ 'auth', 'testers-email:auth' ])
      ->group(function () {
      // 
